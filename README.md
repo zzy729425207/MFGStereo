@@ -1,13 +1,13 @@
-# MFGStereo
+<img width="2119" height="1185" alt="Zero-shot" src="https://github.com/user-attachments/assets/5ef0ffbc-469d-465f-a296-e4318ffc945b" /># MFGStereo
 
 ![visualization2](OverAll.png)
 
 ##  🌼 Abstract
 Stereo matching is a fundamental task in computer vision and robotics. Despite remarkable progress over the past decade, addressing ill-posed regions such as reflective surfaces and textureless areas remains an open challenge. This issue is largely attributed to the inherent matching ambiguity, which leads to local optima results. In this work, we introduce a novel framework that leverages the general representations from monocular foundation models to guide stereo matching in resolving these inherent ambiguities. Specifically, we first introduce a Stereo Feature Adaptation Module (SFAM), which is designed to enhance both discrepant and the contextual features of stereo pipeline by integrating the geometric prior from monocular depth-related features. Subsequently, we replace the traditional single-source cost structure with a novel Cross-Modal Cost Volume Module (CMCVM), which ensures matching stability in ill-posed regions through the complementary of three-source costs: an SFAM-based fixed-range cost, a foundation-based long-range cost and a depth-based gradient discrepancy cost. To further improve the reliability of CMCVM, we introduce a Confidence-based Cost Optimization Mechanism (CCOM) that adaptively filters out the unreliable correlations in illposed regions. Finally, the filtered CMCVM is indexed and processed by ConvGRUs for iterative disparity refinement. The proposed modules effectively leverage monocular guidance to enhance stereo matching, enabling robust performance in ill-posed regions. In the experiments, we integrate the proposed modules into a unified framework, termed MFGStereo. Comprehensive experiments demonstrate that MFGStereo exhibits strong generalization ablily across various scenarios. Moreover, it achieves state-of-the-art results in both the quantification and visualization of challenging ill-posed regions.
 
-## :art: Zero-shot performance on the wild captured stereo images
-![visualization2](media/vis2.png)
-Zero-shot generalization performance on our captured stereo images.
+## :art: Zero-shot performance in ill-posed regions
+![visualization2](Zero-shot.png)
+Comparison in ill-posed regions.
 
 ## ⚙️ Installation
 * NVIDIA RTX 4090

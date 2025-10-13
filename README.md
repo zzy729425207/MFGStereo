@@ -35,6 +35,8 @@ pip install accelerate==1.0.1
 pip install gradio_imageslider
 pip install gradio==4.29.0
 
+```
+
 # Acknowledgements
 
 This project is based on [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [IGEV](https://github.com/gangweiX/IGEV), [Stereo Anywhere](https://github.com/bartn8/stereoanywhere), and [Monster](https://github.com/Junda24/MonSter).

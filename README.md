@@ -5,7 +5,7 @@ Stereo matching is a fundamental task in computer vision and robotics. Despite r
 
 
 ## ⚙️ Installation
-* NVIDIA RTX 3090
+* NVIDIA RTX 4090
 * python 3.8
 
 ### ⏳ Create a virtual environment and activate it.

@@ -1,4 +1,4 @@
-<img width="2119" height="1185" alt="Zero-shot" src="https://github.com/user-attachments/assets/5ef0ffbc-469d-465f-a296-e4318ffc945b" /># MFGStereo
+# MFGStereo
 
 ![visualization2](OverAll.png)
 

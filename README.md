@@ -16,8 +16,8 @@ Comparison in ill-posed regions.
 ### ⏳ Create a virtual environment and activate it.
 
 ```Shell
-conda create -n monster python=3.8
-conda activate monster
+conda create -n MFGStereo python=3.8
+conda activate MFGStereo
 ```
 ### 🎬 Dependencies
 
